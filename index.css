@@ -5,10 +5,11 @@ main{
 
 }
 
+
 /* Image element */
 .bg-image{
     width:30%;
-    background-color:tomato;
+    background-color:lightgreen;
     margin:0 auto;
     padding:1em;
     border-radius:10px;
@@ -21,22 +22,36 @@ img{
 }
 
 /* Button element*/
+.demo-container,.btn-container{
+    margin:0 auto;
+    margin-top:1em;
+    display:flex
+}
+
+.demo-container{
+    width:60%;
+    justify-content:space-between;
+    align-items:center;
+    padding:0.2em;
+}
+
+button{
+    outline:none;
+    padding:0.5em;
+    width:30%;
+    cursor: pointer;
+}
+
 .btn-container{
     width:25%;
-    margin:0 auto;
-    display:grid;
-    margin-top:1em;
-}
-button{
-    padding:0.85em;
-    outline:none;
-    cursor: pointer;
+    justify-content:center;
 }
 
 h1{
     text-align: center;
 }
 
+/* Media Queries */
 @media screen and (max-width:820px){
     main{
         flex-direction: column;
