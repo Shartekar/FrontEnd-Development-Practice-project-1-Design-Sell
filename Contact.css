@@ -1,0 +1,52 @@
+
+h1{
+    text-align: center;
+}
+.form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:0.7rem;
+    max-width:40em;
+    padding:1em;
+    border: 1px solid #ccc;
+    margin:0 auto;
+    background-color:rgba(204, 204, 204, 0.265);
+}
+
+.form *{
+    box-sizing: border-box;
+}
+
+.input_box {
+    display:flex;
+    justify-content:space-between;
+    margin-top:2em;
+    align-items: center;
+    padding:1em;
+}
+
+.input_box input[type="text"],
+.input_box input[type="email"],
+.input_box input[type="tel"],
+.input_box textarea
+
+{
+    width: 70%;
+    padding:0.5em;
+}
+
+.input_box textarea{
+    height:100px;
+}
+
+.button_div{
+    width:25%;
+    margin:0 auto;
+    display:grid;
+    margin-top:2em;
+}
+
+button{
+    cursor:pointer;
+}
+
+
